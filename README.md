@@ -23,7 +23,7 @@ This application provides a complete ML pipeline for customer churn prediction w
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/RishitLunia3108/Churn_Model.git
    cd Task
    ```
 
