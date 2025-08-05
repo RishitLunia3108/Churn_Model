@@ -172,7 +172,9 @@ Parameters:
 
 ### Input CSV Format
 The application works with the Telco Customer Churn dataset. Sample columns:
+
 training data is present at data\Telco-Customer-Churn.csv
+
 testing data is present at data\test_samples.csv
 
 ```csv
@@ -183,6 +185,7 @@ customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleL
 
 ### Output Format
 The prediction endpoint returns a CSV with original data + predictions + explanations:
+
 output data is present at app\uploads\results_test_samples.csv
 
 ```csv
