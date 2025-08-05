@@ -1,0 +1,38 @@
+{
+  "path": "app/uploads/1706a5eb-e5a0-4012-9afd-984548cce7b2_Telco-Customer-Churn.csv",
+  "filename": "Telco-Customer-Churn.csv",
+  "target_column": "Churn",
+  "columns": [
+    "customerID",
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges",
+    "Churn"
+  ],
+  "shape": "(7043, 21)",
+  "cleaned": true,
+  "cleaning_params": {
+    "dataset_id": "1706a5eb-e5a0-4012-9afd-984548cce7b2",
+    "missing_strategy": "impute",
+    "categorical_encoding": "label",
+    "scaling": "standard"
+  },
+  "cleaned_path": "app/uploads/1706a5eb-e5a0-4012-9afd-984548cce7b2_cleaned.csv",
+  "transformers_path": "app/uploads/1706a5eb-e5a0-4012-9afd-984548cce7b2_transformers.joblib"
+}
